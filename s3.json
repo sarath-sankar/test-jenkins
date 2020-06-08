@@ -1,31 +1,31 @@
 {
-   "AWSTemplateFormatVersion": "2010-09-09T00:00:00.000Z",
-   "Metadata": {
-      "AWS::CloudFormation::Designer": {
-         "72b93bd4-19d1-4801-bc3c-b69aacc1b7f7": {
-            "size": {
-               "width": 60,
-               "height": 60
-            },
-            "position": {
-               "x": 225,
-               "y": 60
-            },
-            "z": 0
-         }
-      }
-   },
-   "Resources": {
-      "S3B25P44": {
-         "Type": "AWS::S3::Bucket",
-         "Properties": {
-            "BucketName": "testbucket"
-         },
-         "Metadata": {
-            "AWS::CloudFormation::Designer": {
-               "id": "72b93bd4-19d1-4801-bc3c-b69aacc1b7f7"
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "72b93bd4-19d1-4801-bc3c-b69aacc1b7f7": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 225,
+                    "y": 60
+                },
+                "z": 0
             }
-         }
-      }
-   }
+        }
+    },
+    "Resources": {
+        "S3B25P44": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": "sarath"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "72b93bd4-19d1-4801-bc3c-b69aacc1b7f7"
+                }
+            }
+        }
+    }
 }
