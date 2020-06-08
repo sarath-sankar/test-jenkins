@@ -19,7 +19,7 @@
         "S3B25P44": {
             "Type": "AWS::S3::Bucket",
             "Properties": {
-                "BucketName": "sarath"
+                "BucketName": "sarathtesthyb"
             },
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
